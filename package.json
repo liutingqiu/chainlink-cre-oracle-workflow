@@ -1,0 +1,28 @@
+{
+  "name": "chainlink-cre-oracle-workflow",
+  "version": "1.0.0",
+  "description": "Chainlink Runtime Environment (CRE) Automated Verification & Settlement Workflow for AI Prediction Markets and Real-World Assets",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "chainlink",
+    "cre",
+    "workflow",
+    "oracle",
+    "don",
+    "prediction-market",
+    "ai-agent",
+    "rwa",
+    "settlement"
+  ],
+  "author": "Tingqiu Liu <tianqi689@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
